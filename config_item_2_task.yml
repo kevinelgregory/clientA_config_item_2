@@ -1,0 +1,10 @@
+---
+- name: Perform another configuration task
+  hosts: all
+  become: true
+  gather_facts: false
+  
+  tasks:
+  - name:
+    debug:
+      msg: "This is version v.1.0.0 of config_item_2_task.yml"
