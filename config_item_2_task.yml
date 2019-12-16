@@ -7,4 +7,4 @@
   tasks:
   - name:
     debug:
-      msg: "This is version v.1.0.0 of config_item_2_task.yml"
+      msg: "This is version v.2.0.0 of config_item_2_task.yml"
